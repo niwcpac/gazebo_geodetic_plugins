@@ -119,18 +119,3 @@ express Statement of Purpose.
  d. Affirmer understands and acknowledges that Creative Commons is not a
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
-
-Government-developed Software Disclaimer
-
-Portions of this software were developed by employees of the United States Government in the course of their official duties.
-To the extent that a federal employee is an author of a portion of this software or a derivative work thereof, no copyright is claimed by the Government in that portion.
-The Government assumes no responsibility whatsoever for this software’s use by other parties, and the software is provided "AS IS" without warranty or guarantee
-of any kind, express or implied, including, but not limited to, the warranties of merchantability, fitness for a particular purpose, and noninfringement.
-In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software.
-The software is not designed for use in
-(i) the design, construction, operation or maintenance of any nuclear facility;
-(ii) navigating or operating aircraft or any manned vehicle;
-or (iii) any life-saving, life-support or life-critical medical equipment.
-The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications.
-To the extent that a non-federal employee is an author of a portion of this software or a derivative work thereof,
-the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) is enforced on pull requests.

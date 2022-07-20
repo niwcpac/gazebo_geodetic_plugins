@@ -8,7 +8,7 @@
   <maintainer email="alexander.l.xydes.civ@us.navy.mil">Alexander Xydes</maintainer>
   <maintainer email="thomas.a.denewiler.civ@us.navy.mil">Thomas Denewiler</maintainer>
 
-  <license>Apache 2.0</license>
+  <license>CC0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>gazebo</build_depend>
