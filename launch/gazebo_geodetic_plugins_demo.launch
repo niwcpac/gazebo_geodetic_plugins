@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="gui" default="true"/>
+    <arg name="paused" default="false"/>
+    <arg name="world_name" default="$(find gazebo_geodetic_plugins)/worlds/gazebo_geodetic_plugins_demo.world"/>
+    <arg name="namespace" default="rexrov"/>
+    <arg name="set_timeout" default="false"/>
+    <arg name="timeout" default="0.0"/>
+    <arg name="velocity_control" default="true"/>
+    <arg name="joy_id" default="1"/>
+
+    <include file="$(find dave_demo_launch)/launch/dave_demo.launch">
+        <arg name="gui" value="$(arg gui)"/>
+        <arg name="paused" value="$(arg paused)"/>
+        <arg name="world_name" value="$(arg world_name)"/>
+        <arg name="namespace" value="$(arg namespace)"/>
+        <arg name="set_timeout" value="$(arg set_timeout)"/>
+        <arg name="timeout" value="$(arg timeout)"/>
+        <arg name="velocity_control" value="$(arg velocity_control)"/>
+        <arg name="joy_id" value="$(arg joy_id)"/>
+    </include>
+</launch>
